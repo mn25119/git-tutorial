@@ -17,12 +17,11 @@ def test():
 def main():
     print(hello_world(LANG))
 
-antwoord = input("Wat is het antwoord op de ultieme vraag van het leven, het universum, en alles?")
-if check_antwoord(antwoord):
-    print("Correct!")
-else:
-    print("Mogelijk heb je een andere vraag in je hoofd?")
+    antwoord = input("Wat is het antwoord op de ultieme vraag van het leven, het universum, en alles?")
+    if check_antwoord(antwoord):
+        print("Correct!")
+    else:
+        print("Mogelijk heb je een andere vraag in je hoofd?")
 
-#test()
 main()
 
